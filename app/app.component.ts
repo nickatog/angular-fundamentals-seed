@@ -3,12 +3,10 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   styleUrls: ['app.component.scss'],
-  template: `
+  templateUrl: `
     <div class="app">
-      Hello!
+      <passenger-dashboard></passenger-dashboard>
     </div>
   `
 })
-export class AppComponent {
-
-}
+export class AppComponent { }
